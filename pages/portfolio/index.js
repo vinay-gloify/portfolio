@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import installNode from "../../public/assets/portfolio/installNode.jpg";
 import reactParallax from "../../public/assets/portfolio/reactParallax.jpg";
 import usestate from "../../public/assets/portfolio/usestate.jpg";
@@ -40,7 +40,6 @@ export const getStaticProps = async () => {
     };
 };
 
-
 const index = ({ portfolios }) => {
     return (
         <div id="portfolio" className="w-full">
@@ -68,7 +67,7 @@ const index = ({ portfolios }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default index;
